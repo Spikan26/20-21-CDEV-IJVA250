@@ -40,7 +40,7 @@ public class InitData implements ApplicationListener<ApplicationReadyEvent> {
 
         em.persist(newClient("Hardy", "Thierry-Eugène", LocalDate.of(1996, 5, 14)));
         em.persist(newClient("ABSCHEN", "Jean", LocalDate.of(1996, 5, 14)));
-        em.persist(newClient("ADAMO", "Stéphane", LocalDate.of(19876, 5, 14)));
+        em.persist(newClient("ADAMO", "Stéphane", LocalDate.of(1986, 5, 14)));
         em.persist(newClient("AMELLAL", "Viviane", LocalDate.of(1996, 5, 14)));
         em.persist(newClient("ANGONIN", "Jean-Pierre", LocalDate.of(1991, 5, 14)));
         em.persist(newClient("AZOURA", "Marie-France", LocalDate.of(1996, 5, 14)));
