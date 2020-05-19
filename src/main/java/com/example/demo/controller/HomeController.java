@@ -138,6 +138,7 @@ public class HomeController {
             LocalDate now = LocalDate.now();
             Integer age = client.getDateNaissance().until(now).getYears();
 
+
             String line = client.getNom() + ";" + client.getPrenom() + ";" + age;
             writer.println(line);
         }
